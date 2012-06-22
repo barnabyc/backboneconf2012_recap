@@ -52,19 +52,19 @@
 				<section>
 					<h2>12 presentations. 1 panel.</h2>
 					<ol>
-            <li>Keynote - <a href="#">Jeremy Ashkenas</a></li>
-            <li>Ember.js - <a href="#">Yehuda Katz</a></li>
-            <li>How to Argue about JavaScript - <a href="#">Andrew Dupont</a></li>
-            <li>JS Module Patterns - <a href="#">Alex Sexton</a></li>
-            <li>Data Binding - <a href="#">Vojta Jina</a></li>
-            <li>BackBone from a Dojo-er - <a href="#">Rebecca Murphey</a></li>
+            <li>Keynote - <a href="https://github.com/jashkenas">Jeremy Ashkenas</a></li>
+            <li>Ember.js - <a href="https://github.com/wycats">Yehuda Katz</a></li>
+            <li>How to Argue about JavaScript - <a href="https://github.com/savetheclocktower">Andrew Dupont</a></li>
+            <li>JS Module Patterns - <a href="https://github.com/SlexAxton">Alex Sexton</a></li>
+            <li>AngularJs- <a href="https://github.com/vojtajina">Vojta Jina</a></li>
+            <li>BackBone from a Dojo-er - <a href="https://github.com/rmurphey">Rebecca Murphey</a></li>
             
-            <li>Lumbar - <a href="#">Brad Dunbar</a></li>
-            <li>Migrating a Large App to BackBone - <a href="#">Sam Clay</a></li>
-            <li>Real-World Realtime with Backbone - <a href="#">Henrik Joreteg</a></li>
-            <li>Airbnb’s Journey into Mobile Web - <a href="#">Harrison Shoff</a></li>
-            <li>YUI's Y.App - <a href="#">Eric Ferraiuolo</a></li>
-            <li>JS and Real Languages - <a href="#">Brandon Keepers</a></li>
+            <li>Lumbar Support- <a href="https://github.com/braddunbar">Brad Dunbar</a></li>
+            <li>Migrating a Large App to BackBone - <a href="https://github.com/samuelclay">Sam Clay</a></li>
+            <li>Real-World Realtime with Backbone - <a href="https://github.com/henrikjoreteg">Henrik Joreteg</a></li>
+            <li>Airbnb’s Journey into Mobile Web -  <a href="https://github.com/h4rry">Harrison Shoff</a></li>
+            <li>YUI's Y.App - <a href="https://github.com/ericf">Eric Ferraiuolo</a></li>
+            <li>JS and Real Languages - <a href="https://github.com/bkeepers">Brandon Keepers</a></li>
 					</ol>
           <ul>
             <li>and the panel: The Future Of JavaScript</li>
@@ -124,13 +124,13 @@
         </section>
 				
         <section>
-          <h2>5. Data Binding</h2>
+          <h2>5. AngularJS</h2>
           <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
           <ul>
             <li><span class="label">Emphasized</span>: Seamless 2-way data binding is an ideal of user/data interaction.</li>
             <li><span class="label">Detail</span>: Demonstrated very concisely how easy it is to abstract user model changes automatically reflected in views, and vice-versa (using his AngularJS framework).</li>
             <li><span class="label">Popularity</span>: Minimal. It's a fairly advanced topic that is most easily accomplished with a framework that handles both the model and the view logic, so not as simply as just bolting on a templating engine to a BackBone app.</li>
-            <li><span class="highlight">Where are we?</span> Early stages. We've had this need before, and done a good job at implementing it, but nothing as seamless and transparent as AngularJS provides.</li>
+            <li><span class="highlight">Where are we?</span> Early stages. We've had this need before, and done a good job at implementing it, but nothing as seamless and transparent as AngularJS provides. YUI team looking into data-bindings.</li>
           </ul>
           
           <a class="slide_deck" href="http://vojtajina.github.com/html5la/2012-05-30-boston/index.html">vojtajina.github.com/html5la/2012-05-30-boston</a>
@@ -150,13 +150,13 @@
         </section>
 				
         <section>
-          <h2>7. Lumbar</h2>
+          <h2>7. Lumbar Support</h2>
           <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
           <ul>
             <li><span class="label">Emphasized</span>: BackBone is slim on purpose, here's some extra modules and advice to help.</li>
             <li><span class="label">Detail</span>: Additional modules plus a lot of suggested patterns to improve maintainability.</li>
             <li><span class="label">Popularity</span>: Growing. A lot of the attendees were interested and asked detailed questions about models, data types, templating, etc.</li>
-            <li><span class="highlight">Where are we?</span> Ahead of the curve. We've taken good advantage of YUI modules and patterns, and written many abstractions ourselves. If we were using BackBone, undoubtedly Lumbar would be in our repo but we've still be using a lot of the same patterns.</li>
+            <li><span class="highlight">Where are we?</span> Ahead of the curve. We've taken good advantage of YUI modules and patterns, and written many abstractions ourselves.</li>
           </ul>
           
           <a class="slide_deck" href="https://speakerdeck.com/u/braddunbar/p/lumbar-support">speakerdeck.com/u/braddunbar/p/lumbar-support</a>
@@ -206,9 +206,9 @@
           <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
           <ul>
             <li><span class="label">Emphasized</span>: How YUI's Y.App handles routing and view rendering</li>
-            <li><span class="label">Detail</span>: ??SIMON SIMON SIMON??</li>
+            <li><span class="label">Detail</span>: Talked about how hashbangs are a hack, and should be avoided (when possible). Eric demoed a small app that rendered both on the server and on the client with YUI on node.js. Explained in detail how Y.App works as a combination of router and view to act as a central mediator.</li>
             <li><span class="label">Popularity</span>: Minimal. YUI simply doesn't have the exposure of BackBone, but not through lack of awesome! We still have intentions to open source a bunch of our code and make our name readily associated with YUI.</li>
-            <li><span class="highlight">Where are we?</span> Cutting edge. We're already using Y.App and are very gratified to have been able to discuss some future ideas with Eric.</li>
+            <li><span class="highlight">Where are we?</span> Cutting edge. We're already using Y.App and are very gratified to have been able to discuss some future ideas with Eric. We need improvements on rendering the initial request on the server, our complex app will not work with Eric's simple example.</li>
           </ul>
           
           <a class="slide_deck" href="https://speakerdeck.com/u/ericf/p/yapp-coordinating-url-navigation-routing-and-managing-views">speakerdeck.com/u/ericf/p/yapp-coordinating-url-navigation-routing-and-managing-views</a>
@@ -218,7 +218,7 @@
           <h2>12. JS and Real Languages</h2>
           <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
           <ul>
-            <li><span class="label">Emphasized</span>: Use TDD. Use documentation. Don't rely on Cucumber and acceptance tests because they're big and slow.</li>
+            <li><span class="label">Emphasized</span>: Use TDD. Use documentation. Use Cucumber and acceptance tests, but don't rely heavily on them. They're slow and imprecise.</li>
             <li><span class="label">Detail</span>: GitHub.com's frontend is not TDD, but Brandon's trying to change that. There are great tools out there; use them.</li>
             <li><span class="label">Popularity</span>: Minimal. These really are areas without a great deal of sexy adoption right now, but they're evolving.</li>
             <li><span class="highlight">Where are we?</span> Cutting edge. We are demanding of our TDD tools and rigorous about our code documentation.</li>
@@ -231,10 +231,9 @@
           <h2>The Panel: The Future of JavaScript</h2>
           <h3>&#10029;&#10029;&#10029;&#10029;&#10029;</h3>
           <ul>
-            <li><span class="label">Emphasized</span>: Viewing rendering is hard. ??SIMON SIMON SIMON??</li>
-            <li><span class="label">Detail</span>: Solving the render/prerender/server/client architecture are the current holy grail right now; no perfect solution yet exists. ??SIMON SIMON SIMON??</li>
-            <li><span class="label">Popularity</span>: ??SIMON SIMON SIMON??</li>
-            <li><span class="highlight">Where are we?</span> ??SIMON SIMON SIMON??</li>
+            <li><span class="label">Emphasized</span>: View rendering is hard. Testing your code is important. How should the browser evolve. What should be in frameworks</li>
+            <li><span class="label">Detail</span>: Solving the render/prerender/server/client architecture are the current holy grail right now; no perfect solution yet exists. Class keyword comming to JS. Webcomponents as templates. </li>
+            <li><span class="label">Popularity</span>: Very interesting to hear how the frameworks differs and their opinions on the community</li>
           </ul>
         </section>
 				
@@ -250,7 +249,7 @@
                 <li><span class="highlight">Learn from their directions, contribute and help steer their future</span>.</li>
               </ul>
             </li>
-            <li>What do we want to see? <span class="highlight">2-way-data binding</span>! <span class="highlight">Self-contained nested apps</span>! ??SIMON SIMON SIMON??</li>
+            <li>What do we want to see? <span class="highlight">2-way-data binding</span>! <span class="highlight">Self-contained nested apps</span>! <span class='highlight'>Template loading</span>, <span class='highlight'>JS View rendering on the server</span></li>
           </ul>
 				</section>
 			</div>

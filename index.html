@@ -4,10 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		
-		<title>reveal.js</title>
-
-		<meta name="description" content="An easy to use CSS 3D slideshow tool for quickly creating good looking HTML presentations.">
-		<meta name="author" content="Hakim El Hattab">
+		<title>BackBoneConf 2012 Recap</title>
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -19,6 +16,7 @@
 		<link rel="stylesheet" href="css/print.css" type="text/css" media="print">
 
 		<link rel="stylesheet" href="lib/zenburn.css">
+    <style type="text/css">.slide_deck { font-size: 18px } .highlight { color: #A6E22E } .label { color: #CC3ABB; } .bright { color: #EBEA3F !important; }</style>
 	</head>
 	
 	<body>
@@ -31,8 +29,11 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3 class="inverted">CSS 3D Presentations</h3>
+					<h1>BackBoneConf 2012</h1>
+					<h3 class="bright">Lets do the recap!</h3>
+          <p>2 day conference in Boston</p>
+          <p>12 speakers</p>
+          <p>~300 attendees.</p>
 					<script>
 						// Delicously hacky. Look away.
 						if( navigator.userAgent.match( /(iPhone|iPad|iPod|Android)/i ) ) document.write( '<p style="color: rgba(0,0,0,0.3); text-shadow: none;">('+'Tap to navigate'+')</p>' );
@@ -40,209 +41,217 @@
 				</section>
 				
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is an easy to use, HTML based, presentation tool. You'll need a modern browser with 
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-					<p>
-						<i><small>- <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small></i>
-					</p>
-				</section>
-				
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,<br/>
-							try pressing <a href="#/2/1">down</a>.
-						</p>
-						<a href="#/2/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Holistic Overview</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview!
-					</p>
-				</section>
-
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides pinch your way to the overview.
-					</p>
-				</section>
-
-				<section>
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like:
-					</p>
-					<ul>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=cube">Cube</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=page">Page</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=concave">Concave</a></li>
-						<li><a href="http://lab.hakim.se/reveal-js/?transition=linear">Linear</a></li>
-					</ul>
-				</section>
-
-				<section>
-					<h2>Marvelous Unordered List</h2>
-					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-					</ul>
+					<h1>What is BackBone?</h1>
+					<h3 class="inverted">It's a JS library!</h3>
+          <p>
+            A very, very small library that provides basic MVC capabilities and encourages modular application design.
+          </p>
+          <p><a href="https://github.com/documentcloud/backbone">github.com/documentcloud/backbone</a></p>
 				</section>
 				
 				<section>
-					<h2>Fantastic Ordered List</h2>
+					<h2>12 presentations. 1 panel.</h2>
 					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
+            <li>Keynote - <a href="#">Jeremy Ashkenas</a></li>
+            <li>Ember.js - <a href="#">Yehuda Katz</a></li>
+            <li>How to Argue about JavaScript - <a href="#">Andrew Dupont</a></li>
+            <li>JS Module Patterns - <a href="#">Alex Sexton</a></li>
+            <li>Data Binding - <a href="#">Vojta Jina</a></li>
+            <li>BackBone from a Dojo-er - <a href="#">Rebecca Murphey</a></li>
+            
+            <li>Lumbar - <a href="#">Brad Dunbar</a></li>
+            <li>Migrating a Large App to BackBone - <a href="#">Sam Clay</a></li>
+            <li>Real-World Realtime with Backbone - <a href="#">Henrik Joreteg</a></li>
+            <li>Airbnb’s Journey into Mobile Web - <a href="#">Harrison Shoff</a></li>
+            <li>YUI's Y.App - <a href="#">Eric Ferraiuolo</a></li>
+            <li>JS and Real Languages - <a href="#">Brandon Keepers</a></li>
 					</ol>
-				</section>
-
-				<section>
-					<section data-state="alert">
-						<h2>Global State</h2>
-						<p>
-							Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-							will be added as a class to the document element when the slide is open. This let's you
-							apply broader style changes, like switching the background.
-						</p>
-						<a href="#/7/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
-					</section>
-					<section data-state="blackout">
-						<h2>"blackout"</h2>
-						<a href="#/7/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png">
-						</a>
-					</section>
-					<section data-state="soothe">
-						<h2>"soothe"</h2>
-						<a href="#/7/0" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code contenteditable style="font-size: 18px; margin-top: 20px;">Reveal.addEventListener( 'customevent', function() {
-	alert( '"customevent" has fired' );
-} );
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						For years there has been a theory that millions of monkeys typing at random on millions of typewriters would 
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
-					</blockquote>
+          <ul>
+            <li>and the panel: The Future Of JavaScript</li>
+          </ul>
 				</section>
 				
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code contenteditable>
-var supports3DTransforms =  document.body.style['webkitPerspective'] !== undefined || 
-				document.body.style['MozPerspective'] !== undefined ||
-				document.body.style['perspective'] !== undefined;
-
-function linkify( selector ) {
-    if( supports3DTransforms ) {
-        
-        var nodes = document.querySelectorAll( selector );
-
-        for( var i = 0, len = nodes.length; i < len; i++ ) {
-            var node = nodes[i];
-
-            if( !node.className || !node.className.match( /roll/g ) ) {
-                node.className += ' roll';
-                node.innerHTML = '<span data-title="'+ node.text +'">' + node.innerHTML + '</span>';
-            }
-        };
-    }
-}
-
-linkify( 'a' );
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
+        <section>
+          <h2>1. Keynote</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Separate your concerns. Don't do JS the old way. Get your state out of the DOM! Use Models to actually Model your data! It really is possible to separate your concerns in a browser! ZOMG!</li>
+            <li><span class="label">Detail</span>: BackBone came from DocumentCloud. All open source and highly accessible thanks to minimal size.</li>
+            <li><span class="label">Popularity</span>: Quite. Lots of your favorite sites built with BackBone: Pandora, Rdio, Trello, MetaLab Flow, FourSquare, Khan Academy!</li>
+            <li><span class="highlight">Where are we?</span> We already hold these principles dear. We know this is the future. We're ahead of a lot of the audience.</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/jashkenas/p/state-of-the-backbone">speakerdeck.com/u/jashkenas/p/state-of-the-backbone</a>
+        </section>
+				
+        <section>
+          <h2>2. Ember.js</h2>
+          <h3>&#10029;&#10029;&#10029;&#10025;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Ember is better than BackBone. (<em>Enemy territory much?</em>)</li>
+            <li><span class="label">Detail</span>: BackBone is <em>too</em> small and you really need a more comprehensive framework to do anything substantial.</li>
+            <li><span class="label">Popularity</span>: Unclear. Some of the features of Ember are appealing, but in terms of keeping a project slim, are likely overkill.</li>
+            <li><span class="highlight">Where are we?</span> We looked at Ember's early incarnations, and have kept an eye out, but nothing compelling to make us reconsider our choices.</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/wycats/p/backboneconf-emberjs">speakerdeck.com/u/wycats/p/backboneconf-emberjs</a>
+        </section>
+				
+        <section>
+          <h2>3. How to Argue about JavaScript</h2>
+          <h3>&#10029;&#10029;&#10029;&#10025;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Civility is key to collaborative endeavors.</li>
+            <li><span class="label">Detail</span>: JS is an evolving language, and not everybody agrees on how to write it. If you have strong opinions and little tact, you can easily end-up missing the point.</li>
+            <li><span class="label">Popularity</span>: It was a good wake-up call to a lot of the attendees as getting more involved in the community means learning how to speak to people.</li>
+            <li><span class="highlight">Where are we?</span> Most of the time we're all polite and constructive, but even we have our moments of bluntness...</li>
+          </ul>
+          
+          <a class="slide_deck" href="http://www.slideshare.net/savetheclocktower/how-to-argue-about-javascript-13167253">slideshare.net/savetheclocktower/how-to-argue-about-javascript-13167253</a>
+        </section>
+				
+        <section>
+          <h2>4. JS Module Patterns</h2>
+          <h3>&#10029;&#10029;&#10029;&#10025;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Organize your application code for sanity <em>and</em> performance!</li>
+            <li><span class="label">Detail</span>: In addition to how to model your application, don't overlook your file structure. Split code into modules, load them with a require construct, deprecate during refactor.</li>
+            <li><span class="label">Popularity</span>: Somewhat. A lot of folks are really getting into the core concepts of MVC, but overall app structure is still secondary.</li>
+            <li><span class="highlight">Where are we?</span> Solid footing. Our JS code organization and structure has evolved and we're continuing to improve asset packaging and performance.</li>
+          </ul>
+          
+          <a class="slide_deck" href="http://alexsexton.com/talks/backboneconf2012/">alexsexton.com/talks/backboneconf2012</a>
+        </section>
+				
+        <section>
+          <h2>5. Data Binding</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Seamless 2-way data binding is an ideal of user/data interaction.</li>
+            <li><span class="label">Detail</span>: Demonstrated very concisely how easy it is to abstract user model changes automatically reflected in views, and vice-versa (using his AngularJS framework).</li>
+            <li><span class="label">Popularity</span>: Minimal. It's a fairly advanced topic that is most easily accomplished with a framework that handles both the model and the view logic, so not as simply as just bolting on a templating engine to a BackBone app.</li>
+            <li><span class="highlight">Where are we?</span> Early stages. We've had this need before, and done a good job at implementing it, but nothing as seamless and transparent as AngularJS provides.</li>
+          </ul>
+          
+          <a class="slide_deck" href="http://vojtajina.github.com/html5la/2012-05-30-boston/index.html">vojtajina.github.com/html5la/2012-05-30-boston</a>
+        </section>
+				
+        <section>
+          <h2>6. BackBone from a Dojo-er</h2>
+          <h3>&#10029;&#10029;&#10025;&#10025;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: View handling in BackBone is a little lacking.</li>
+            <li><span class="label">Detail</span>: Dojo is another JS framework. Rebecca hasn't used BackBone much. She explained how she found herself writing some view handling code that she wouldn't have had to in Dojo.</li>
+            <li><span class="label">Popularity</span>: Unclear. Jeremy's take away (as noted by almost all speakers and participants) was to add some helper methods for view destroying and event unbinding.</li>
+            <li><span class="highlight">Where are we?</span> Solid footing. We started well and continue to improve our event management within long-lived models to short-lived view scenarios.</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/rmurphey/p/new-dogs-old-tricks-or-dojo-already-did-that">speakerdeck.com/u/rmurphey/p/new-dogs-old-tricks-or-dojo-already-did-that</a>
+        </section>
+				
+        <section>
+          <h2>7. Lumbar</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: BackBone is slim on purpose, here's some extra modules and advice to help.</li>
+            <li><span class="label">Detail</span>: Additional modules plus a lot of suggested patterns to improve maintainability.</li>
+            <li><span class="label">Popularity</span>: Growing. A lot of the attendees were interested and asked detailed questions about models, data types, templating, etc.</li>
+            <li><span class="highlight">Where are we?</span> Ahead of the curve. We've taken good advantage of YUI modules and patterns, and written many abstractions ourselves. If we were using BackBone, undoubtedly Lumbar would be in our repo but we've still be using a lot of the same patterns.</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/braddunbar/p/lumbar-support">speakerdeck.com/u/braddunbar/p/lumbar-support</a>
+        </section>
+				
+        <section>
+          <h2>8. Migrating a Large App to BackBone</h2>
+          <h3>&#10029;&#10029;&#10029;&#10025;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: NewsBlur is much more maintainable and performant since migrating.</li>
+            <li><span class="label">Detail</span>: Long, winding examples highlighting very fragile linkages when truth is held in DOM elements. Ultimately proving that porting a large application is possible. (War stories always reassuring.)</li>
+            <li><span class="label">Popularity</span>: Strong. The attendees were all basically in the camp that MVC is better than DOM, but it was reassuring to hear.</li>
+            <li><span class="highlight">Where are we?</span> Ahead of the curve. We've already learned from the trials of complex, inter-dependent DOM spaghetti; bless our MVC saviors!</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/samuelclay/p/backbonification-migrating-newsblur-from-dom-spaghetti-to-backbonejs">speakerdeck.com/u/samuelclay/p/backbonification-migrating-newsblur-from-dom-spaghetti-to-backbonejs</a>
+        </section>
+				
+        <section>
+          <h2>9. Real-World Realtime</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Robust app structure will make data updates inconsequential to manage.</li>
+            <li><span class="label">Detail</span>: There is no perfect real-time solution, but thanks to sound data modeling and a solid MVC approach, you shouldn't need to worry that your data may or may not be "real-time".</li>
+            <li><span class="label">Popularity</span>: Minimal. It's a somewhat niche requirement, and every application is different, but it was well-received to hear Henrik's war stories.</li>
+            <li><span class="highlight">Where are we?</span> Good understanding. We've tried some real-time (remember Pusher guys?) but haven't had the need to apply real-time data to our revent MVC JS.</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/henrikjoreteg/p/real-world-realtime-with-backbone">speakerdeck.com/u/henrikjoreteg/p/real-world-realtime-with-backbone</a>
+        </section>
+				
+        <section>
+          <h2>10. Airbnb’s Journey into Mobile Web</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10029;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: War story about building AirBNB's mobile web experience from ground up with BackBone</li>
+            <li><span class="label">Detail</span>: Very short deadline, never used BackBone before, didn't really have a clear vision defined - still got it done in time.</li>
+            <li><span class="label">Popularity</span>: Strong. Very compelling tale and reassuring to hear from a tangible brand. Also great to see their mobile architecture is not simplistic and handle some fairly complex abstractions such as Caching and Analytics.</li>
+            <li><span class="highlight">Where are we?</span> Our mobile web experience is lacking. But not from lack of ideas!</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/hshoff/p/airbnbs-journey-into-mobile-web">speakerdeck.com/u/hshoff/p/airbnbs-journey-into-mobile-web</a>
+        </section>
+				
+        <section>
+          <h2>11. YUI's Y.App</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: How YUI's Y.App handles routing and view rendering</li>
+            <li><span class="label">Detail</span>: ??SIMON SIMON SIMON??</li>
+            <li><span class="label">Popularity</span>: Minimal. YUI simply doesn't have the exposure of BackBone, but not through lack of awesome! We still have intentions to open source a bunch of our code and make our name readily associated with YUI.</li>
+            <li><span class="highlight">Where are we?</span> Cutting edge. We're already using Y.App and are very gratified to have been able to discuss some future ideas with Eric.</li>
+          </ul>
+          
+          <a class="slide_deck" href="https://speakerdeck.com/u/ericf/p/yapp-coordinating-url-navigation-routing-and-managing-views">speakerdeck.com/u/ericf/p/yapp-coordinating-url-navigation-routing-and-managing-views</a>
+        </section>
+				
+        <section>
+          <h2>12. JS and Real Languages</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10025;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Use TDD. Use documentation. Don't rely on Cucumber and acceptance tests because they're big and slow.</li>
+            <li><span class="label">Detail</span>: GitHub.com's frontend is not TDD, but Brandon's trying to change that. There are great tools out there; use them.</li>
+            <li><span class="label">Popularity</span>: Minimal. These really are areas without a great deal of sexy adoption right now, but they're evolving.</li>
+            <li><span class="highlight">Where are we?</span> Cutting edge. We are demanding of our TDD tools and rigorous about our code documentation.</li>
+          </ul>
+          
+          <a class="slide_deck" href="http://opensoul.org/blog/archives/2012/05/16/the-plight-of-pinocchio/">opensoul.org/blog/archives/2012/05/16/the-plight-of-pinocchio</a>
+        </section>
+				
+        <section>
+          <h2>The Panel: The Future of JavaScript</h2>
+          <h3>&#10029;&#10029;&#10029;&#10029;&#10029;</h3>
+          <ul>
+            <li><span class="label">Emphasized</span>: Viewing rendering is hard. ??SIMON SIMON SIMON??</li>
+            <li><span class="label">Detail</span>: Solving the render/prerender/server/client architecture are the current holy grail right now; no perfect solution yet exists. ??SIMON SIMON SIMON??</li>
+            <li><span class="label">Popularity</span>: ??SIMON SIMON SIMON??</li>
+            <li><span class="highlight">Where are we?</span> ??SIMON SIMON SIMON??</li>
+          </ul>
+        </section>
 				
 				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,<br/>
-						<a href="#/2/3">like this</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Fragmented Views</h2>
-					<p>Hit the next arrow...</p>
-					<p class="fragment">... to step through ...</p>
-					<ol>
-						<li class="fragment"><code>any type</code></li>
-						<li class="fragment"><em>of view</em></li>
-						<li class="fragment"><strong>fragments</strong></li>
-					</ol>
-				</section>
-				
-				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://hakim.se/experiments/html5/breakdom/" target="_blank">
-						<img width="320" height="412" src="https://s3.amazonaws.com/hakim-static/reveal-js/breakdom.png">
-					</a>
-				</section>
-				
-				<section>
-					<h2>Stellar Links</h2>
-					<ul>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on github</a></li>
-						<li><a href="http://hakim.se/projects/reveal-js">Read more on my site</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
-					</ul>
-				</section>
-				
-				<section>
-					<h1>THE END</h1>
-					<h3 class="inverted">BY Hakim El Hattab / hakim.se</h3>
+					<h1>Conclusions</h1>
+          <ul>
+            <li>Was it worth it? <span class="highlight">Definitely</span>. Did we learn a lot? <span class="highlight">Definitely</span>.</li>
+            <li>Did the folks creating these frameworks learn a lot? <span class="highlight">Definitely</span>.</li>
+            <li>What are the most powerful things we should do?
+              <ul>
+                <li><span class="highlight">Pay attention to all these frameworks</span>.</li>
+                <li><span class="highlight">Be involved in the community</span>.</li>
+                <li><span class="highlight">Learn from their directions, contribute and help steer their future</span>.</li>
+              </ul>
+            </li>
+            <li>What do we want to see? <span class="highlight">2-way-data binding</span>! <span class="highlight">Self-contained nested apps</span>! ??SIMON SIMON SIMON??</li>
+          </ul>
 				</section>
 			</div>
 
@@ -270,11 +279,6 @@ linkify( 'a' );
 			var query = {};
 			location.search.replace( /[A-Z0-9]+?=(\w*)/gi, function(a) {
 				query[ a.split( '=' ).shift() ] = a.split( '=' ).pop();
-			} );
-
-			// Fires when a slide with data-state=customevent is activated
-			Reveal.addEventListener( 'customevent', function() {
-				alert( '"customevent" has fired' );
 			} );
 
 			// Fires each time a new slide is activated
